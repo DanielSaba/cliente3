@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
 *{
 	margin:0;
 	padding: 0;
@@ -10,7 +12,7 @@
 body{
 	
 	min-height: 100vh;
-	background-color: aquamarine;
+	background-color: #00CCFF;
 }
 
 .container1{
@@ -20,8 +22,9 @@ body{
 }
 
 .form0{
-	background-color: yellow;
-	font-family: 'calibri';
+	background-color: #0076CA;
+	color: white;
+	font-family: 'Arial';
 	margin: auto;
 	padding: 1.5em;
 	border-radius: 10px;
@@ -51,8 +54,23 @@ body{
 	border-radius: 10px;
 }
 
+.nav01{
+	background-color:  #0057CB;
+	display: flex;
+	align-items: center;
+	height: 100px;
+	
+}
 
+.navbar-logo{
+	float: left;
+	
 
+}
+
+.navbar-login{
+	float: right;
+}
 
 .form_container{
 	display: grid;
@@ -76,7 +94,7 @@ body{
 	padding: -6em -3em;
 	border: none;
 	outline: none;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid #0057CB;
 	font-family: 'Roboto';
 }
 
@@ -88,7 +106,8 @@ body{
 }
 
 .form_label{
-	color: black;
+	color:black;
+	font-weight: bold;
 	cursor: pointer; 		
 	position: absolute;
 	top: -15;
@@ -100,12 +119,12 @@ body{
 
 
 
-.form_submit {
+ .form_submit {
 	
 	border-radius: 4px;
-	background-color: #5ca1e1;
+	background-color: #F8DA0D;
 	border: none;
-	color: #fff;
+	color: black;
 	text-align: center;
 	font-size: 32px;
 	padding: 12px;
@@ -114,7 +133,8 @@ body{
 	cursor: pointer;
 	margin: 36px;
 	box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-  }
+  } 
+
   
   .form_submit{
 	cursor: pointer;
@@ -143,7 +163,11 @@ body{
   }
 
 
-
+  .form_submit:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+	box-shadow: 0 0 5px green, 0 0 20px rgba(0, 123, 255, 0.5), 0 0 30px rgba(0, 123, 255, 0.3), 0 0 40px rgba(0, 123, 255, 0.2);
+  }
 
 
 /* Questions */
