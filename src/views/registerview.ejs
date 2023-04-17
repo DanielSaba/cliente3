@@ -1,0 +1,311 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<title>Personality Test</title>
+	
+    <link rel="stylesheet" type="text/css" href="register2.css">
+	<style>
+		/* Personaliza la duración de la transición del modal */
+		.modal.fade .modal-dialog {
+		  transition: transform 0.5s ease-out;
+		}
+	  </style>
+</head>
+<!-- BODY -->
+<body>
+
+	
+	<nav class="navbar bg-body-tertiary">
+		<div class="container-fluid">
+		  <a class="navbar-brand">
+			<img src="http://localhost:3000/img/logo.png" width="30" height="30" alt="Mi logo">
+		  </a>
+		  
+		  <form class="d-flex" role="search">
+			<button class="btn btn-outline-success" type="submit">Login</button>
+		  </form>
+		</div>	
+	  </nav>
+
+
+
+
+
+
+
+	
+	<!-- FORM -->
+		<div class="container1">
+			<div class="form0">
+				<h1>LAS PRINCIPALES CAUSA DE LA DIFAMACION</h1>	
+			</div>	
+			<form id="form" name="form" action="/" method="post" onsubmit="return validateForm()" >
+			<div class="form">
+				<div class="form_container">
+					<div class="form_group">
+						<input type="text" name="name" id="name1" class="form_input" placeholder=" ">
+						<label class="form_label">Nombre y Apellido</label>		
+						<span class="form_line"></span>
+					</div>
+	
+					<div class="form_group">
+						<input type="text" name="university" id="university" class="form_input" placeholder=" " >
+						<label class="form_label">Universidad</label>		
+						<span class="form_line"></span>
+					</div>
+	
+					<div class="form_group">
+						<input type="text" name="carrera" class="form_input" placeholder=" " >
+						<label class="form_label">Carrera universitaria</label>		
+						<span class="form_line"></span>
+					</div>
+
+					<div class="form_group">
+						<input type="text" name="institution" class="form_input" placeholder=" ">
+						<label class="form_label">Correo institucional o personal</label>		
+						<span class="form_line"></span>
+					</div>
+
+					<div class="form_group">
+						<input type="text" name="phone" class="form_input" placeholder=" ">
+						<label class="form_label">Telefono celular</label>		
+						<span class="form_line"></span>
+					</div>
+	
+
+					<div class="form_group">
+						<input type="text" class="form_input" placeholder=" ">
+						<label class="form_label">Nombre:</label>		
+						<span class="form_line"></span>
+					</div>
+	
+				</div>
+				
+	
+			</div>	
+
+			<div class="form2">
+
+					<div class="form_group2">
+						<label class="question">¿Has participado en programas de formación laboral o prácticas profesionales durante tu tiempo en la universidad?</label>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="Nunca" name="uno" value="Nunca"
+									checked>
+							<label for="huey" class="form_labelradio">Nunca</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="Algunas veces" name="uno" value="Algunas veces">
+							<label for="dewey" class="form_labelradio" >Algunas veces</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="Mas tarde" name="uno" value="Mas tarde">
+							<label for="louie" class="form_labelradio" >Mas tarde</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="Jamas" name="uno" value="Jamas">
+							<label for="louie" class="form_labelradio" >Jamas </label>
+						</div>
+					</div>
+					<br>
+					<div class="form_group2">
+						<label class="question">¿Has participado en programas de formación laboral o prácticas profesionales durante tu tiempo en la universidad?</label>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="huey" name="drone" value="huey"
+									checked>
+							<label for="huey" class="form_labelradio">Huey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="dewey" name="drone" value="dewey">
+							<label for="dewey" class="form_labelradio" >Dewey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+					</div>
+					<br>
+					<div class="form_group2">
+						<label class="question">¿Has participado en programas de formación laboral o prácticas profesionales durante tu tiempo en la universidad?</label>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="huey" name="drone" value="huey"
+									checked>
+							<label for="huey" class="form_labelradio">Huey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="dewey" name="drone" value="dewey">
+							<label for="dewey" class="form_labelradio" >Dewey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+					</div>
+					<br>
+					<div class="form_group2">
+						<label class="question">¿Has participado en programas de formación laboral o prácticas profesionales durante tu tiempo en la universidad?</label>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="huey" name="drone" value="huey"
+									checked>
+							<label for="huey" class="form_labelradio">Huey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="dewey" name="drone" value="dewey">
+							<label for="dewey" class="form_labelradio" >Dewey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+					</div>
+					<br>
+					<div class="form_group2">
+						<label class="question">¿Has participado en programas de formación laboral o prácticas profesionales durante tu tiempo en la universidad?</label>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="huey" name="drone" value="huey"
+									checked>
+							<label for="huey" class="form_labelradio">Huey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="dewey" name="drone" value="dewey">
+							<label for="dewey" class="form_labelradio" >Dewey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+					</div>
+					<br>
+					<div class="form_group2">
+						<label class="question">¿Has participado en programas de formación laboral o prácticas profesionales durante tu tiempo en la universidad?</label>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="huey" name="drone" value="huey"
+									checked>
+							<label for="huey" class="form_labelradio">Huey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="dewey" name="drone" value="dewey">
+							<label for="dewey" class="form_labelradio" >Dewey</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+						<div class="container_radio">
+							<input type="radio" class="form_radio" id="louie" name="drone" value="louie">
+							<label for="louie" class="form_labelradio" >Louie</label>
+						</div>
+					</div>
+
+					<button  type="submit" class="form_submit">Enviar</button>
+				
+				</div>
+		</form>
+		</div>
+	</div>
+
+	 <!-- Modal de alerta de error -->
+	
+		<div class="modal" id="modalSuccess">
+			<div class="modal-content modal-success">
+			  <span class="close" onclick="cerrarModal()">&times;</span>
+			  <strong>¡Éxito!</strong> Este es un mensaje de alerta de éxito.
+			</div>
+		  </div>
+	
+	
+	  
+	  <!-- Modal de alerta de error -->
+	  <div class="modal" id="modalError">
+		<div class="modal-content modal-danger">
+		  <span class="close" onclick="cerrarModal()">&times;</span>
+		  <strong>Error:</strong> Este es un mensaje de alerta de error.
+		</div>
+	  </div>
+
+
+
+	<!-- form -->
+
+<script type="text/javascript">
+
+// function mostrarAlerta() {
+//   document.getElementById('miModal').style.display = 'block';
+// }
+
+
+// function mostrarModalsuccess() {
+//     document.getElementById('modalSuccess').style.display = 'block';
+//   }
+
+
+  function mostrarModalsuccess() {
+  document.getElementById('modalSuccess').style.display = 'block';
+}
+
+  // Función para cerrar el modal de alerta
+  function mostrarModalerror() {
+	document.getElementById('modalError').style.display = 'block';
+  }
+
+  function cerrarModal(){
+	document.getElementById('modalError').style.display = 'none';
+  }
+
+
+  function toTop() {
+    window.scrollTo(0, 0)
+}
+
+function validateForm(){
+//alert('xxxxx');
+var nombre = document.getElementById("name1").value;
+var university= document.getElementById("university").value;
+
+if (nombre === ""){
+    //alert("Tiene que escribir su nombre");
+	console.log('pasoo');
+	toTop();
+	mostrarModalerror();
+	
+	return false;
+   	}
+
+if (university === ""){
+	toTop();
+	mostrarModalerror();
+	return false;
+
+return false;
+}
+
+mostrarModalsuccess();
+return true;
+
+
+}
+
+
+</script>
+
+</body>
+</html>
