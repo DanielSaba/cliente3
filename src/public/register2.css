@@ -48,7 +48,7 @@ body{
 .form0{
 	margin: 0 auto;
 
-	background-color: #37D8F1;
+	background-color: #00EBAD;
 	
 	color: white;
 	font-family: 'Arial';
@@ -181,9 +181,9 @@ body{
 	
 
 	border-radius: 4px;
-	background-color: #F8DA0D;
+	background-color: #6633FF;
 	border: none;
-	color: black;
+	color: white;
 	text-align: center;
 	font-size: 32px;
 
