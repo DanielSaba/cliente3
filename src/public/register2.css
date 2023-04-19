@@ -19,7 +19,7 @@ body{
 .container1{
 	
 	display: flex;
-<<<<<<< HEAD
+                             
 	justify-content: center;
 	width: 60%;
 	margin: 0 auto;
@@ -33,22 +33,21 @@ body{
 .form0{
 	width: 90%;
 	
-=======
+
 	flex-direction: column;
-<<<<<<< HEAD
+
 	margin: 0 auto;
 	
-	width: 60%
-=======
-	width: 700px;
+	width: 60%;
+
 	margin: 0 auto;
 	
->>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
+
 }
 
 .form0{
 	margin: 0 auto;
->>>>>>> 45182e9c9d199f7ffc5fc54ba8a793c586e54e26
+
 	background-color: #0076CA;
 	color: white;
 	font-family: 'Arial';
@@ -58,11 +57,11 @@ body{
 	box-shadow: 0 5px  10px -5px rgb(0, 0, 0/30%);
 	text-align: center;
 	margin-bottom: 2px;
-<<<<<<< HEAD
+
 	
-=======
+
 	width: 100%;
->>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
+
 }
 
 .form{
@@ -72,27 +71,27 @@ body{
 	border-radius: 10px;
 	box-shadow: 0 5px  10px -5px rgb(0, 0, 0/30%);
 	text-align: center;
-<<<<<<< HEAD
+
 	width: 90%;
-=======
+
 	width: 100%;
->>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
+
 }
 
 .form2{
 	width: 90%;
 	background-color: #fff;
-<<<<<<< HEAD
+
 	margin: 0 auto;
-=======
+
 	margin: auto;
-<<<<<<< HEAD
+
 	
 	width: 90%;
-=======
->>>>>>> 45182e9c9d199f7ffc5fc54ba8a793c586e54e26
+
+
 	width: 100%;
->>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
+
 	margin-top: 10px;
 	padding: 2.5em;
 	border-radius: 10px;
@@ -160,11 +159,11 @@ body{
 	font-size: 15px;
 	top: -20;
 	left: 5px;
-<<<<<<< HEAD
+
 	transform: translateY(-10px); 
-=======
+
 	transform: translateY(-10px);
->>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
+
 	transition: transform .5s, color .3s;
 }
 
@@ -186,13 +185,13 @@ body{
 	color: black;
 	text-align: center;
 	font-size: 32px;
-<<<<<<< HEAD
+
 	padding: 12px;
 	width: 70%;
-=======
+
 
 	width: 60%;
->>>>>>> 45182e9c9d199f7ffc5fc54ba8a793c586e54e26
+
 	transition: all 0.5s;
 	cursor: pointer;
 	
@@ -261,11 +260,11 @@ body{
 }
 
 
-<<<<<<< HEAD
+
 @media (max-width: 450px) {
 	.container1 {
 	width: 95%;
-=======
+
 @media (min-width: 550px) {
 	.nav01{
 	
@@ -276,20 +275,18 @@ body{
 
   @media (max-width: 500px) {
 	.container1{
-<<<<<<< HEAD
+
  	
 	 width: 100%;
 	 background-color: rebeccapurple;
-=======
+
 	
 	 width: 400px;
->>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
->>>>>>> 45182e9c9d199f7ffc5fc54ba8a793c586e54e26
+
 	 
 	}
   }
-
-
+	}
 
 /* Alerts */
 
@@ -346,3 +343,4 @@ body{
   }
 
  
+}
