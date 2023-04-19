@@ -19,9 +19,13 @@ body{
 	
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
+	
+	width: 60%
 }
 
 .form0{
+	margin: 0 auto;
 	background-color: #0076CA;
 	color: white;
 	font-family: 'Arial';
@@ -31,24 +35,25 @@ body{
 	box-shadow: 0 5px  10px -5px rgb(0, 0, 0/30%);
 	text-align: center;
 	margin-bottom: 2px;
-	width: 550px;
+	
 }
 
 .form{
 	background-color: #fff;
-	margin: auto;
+	margin: 0 auto;
 	padding: 2.5em;
 	border-radius: 10px;
 	box-shadow: 0 5px  10px -5px rgb(0, 0, 0/30%);
 	text-align: center;
-	width: 550px;
+	width: 90%;
 }
 
 .form2{
 	width: 100px;
 	background-color: #fff;
 	margin: auto;
-	width: 550px;
+	
+	width: 90%;
 	margin-top: 10px;
 	padding: 2.5em;
 	border-radius: 10px;
@@ -100,9 +105,9 @@ body{
 
 .form_input:focus + .form_label,	
 .form_input:not(:placeholder-shown) + .form_label{
-	transform: translateY(-12px) scale(.7);
+	transform: translateY(-12px) scale(.5);
 	transform-origin: left top;
-	color: blue;
+	color: #0057CB;
 }
 
 .form_label{
@@ -110,9 +115,10 @@ body{
 	font-weight: bold;
 	cursor: pointer; 		
 	position: absolute;
-	top: -15;
+	font-size: 15px;
+	top: -20;
 	left: 5px;
-	transform: translateY(10px);
+	transform: translateY(-10px); 
 	transition: transform .5s, color .3s;
 }
 
@@ -120,26 +126,33 @@ body{
 
 
  .form_submit {
+
 	
+
+	margin-top: 35px;
+	margin-left: 20%;
+	
+	
+
 	border-radius: 4px;
 	background-color: #F8DA0D;
 	border: none;
 	color: black;
 	text-align: center;
 	font-size: 32px;
-	padding: 12px;
-	width: 400px;
+
+	width: 60%;
 	transition: all 0.5s;
 	cursor: pointer;
-	margin: 36px;
+	
 	box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
   } 
 
-  
+ 
   .form_submit{
-	cursor: pointer;
+	
 	display: inline-block;
-	position: relative;
+	
 	transition: 0.5s;
   }
   
@@ -167,7 +180,7 @@ body{
 	transform: scale(1.1);
 	box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 	box-shadow: 0 0 5px green, 0 0 20px rgba(0, 123, 255, 0.5), 0 0 30px rgba(0, 123, 255, 0.3), 0 0 40px rgba(0, 123, 255, 0.2);
-  }
+  } 
 
 
 /* Questions */
@@ -197,9 +210,9 @@ body{
 }
 
 
-@media (max-width: 700px) {
-	form {
-	
+@media (max-width: 450px) {
+	.container1 {
+	width: 95%;
 	 
 	}
   }
