@@ -19,9 +19,15 @@ body{
 	
 	display: flex;
 	flex-direction: column;
+<<<<<<< HEAD
 	margin: 0 auto;
 	
 	width: 60%
+=======
+	width: 700px;
+	margin: 0 auto;
+	
+>>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
 }
 
 .form0{
@@ -35,7 +41,11 @@ body{
 	box-shadow: 0 5px  10px -5px rgb(0, 0, 0/30%);
 	text-align: center;
 	margin-bottom: 2px;
+<<<<<<< HEAD
 	
+=======
+	width: 100%;
+>>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
 }
 
 .form{
@@ -45,15 +55,23 @@ body{
 	border-radius: 10px;
 	box-shadow: 0 5px  10px -5px rgb(0, 0, 0/30%);
 	text-align: center;
+<<<<<<< HEAD
 	width: 90%;
+=======
+	width: 100%;
+>>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
 }
 
 .form2{
 	width: 100px;
 	background-color: #fff;
 	margin: auto;
+<<<<<<< HEAD
 	
 	width: 90%;
+=======
+	width: 100%;
+>>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
 	margin-top: 10px;
 	padding: 2.5em;
 	border-radius: 10px;
@@ -64,6 +82,8 @@ body{
 	display: flex;
 	align-items: center;
 	height: 100px;
+	width: 100%
+	
 	
 }
 
@@ -113,12 +133,17 @@ body{
 .form_label{
 	color:black;
 	font-weight: bold;
+	font-size: 14px;
 	cursor: pointer; 		
 	position: absolute;
 	font-size: 15px;
 	top: -20;
 	left: 5px;
+<<<<<<< HEAD
 	transform: translateY(-10px); 
+=======
+	transform: translateY(-10px);
+>>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
 	transition: transform .5s, color .3s;
 }
 
@@ -210,12 +235,29 @@ body{
 }
 
 
+<<<<<<< HEAD
 @media (max-width: 450px) {
 	.container1 {
 	width: 95%;
+=======
+@media (min-width: 550px) {
+	.nav01{
+	
+	 width: 100%;
+	}
+  }
+
+
+  @media (max-width: 600px) {
+	.container1{
+	
+	 width: 400px;
+>>>>>>> b905ec876248f3cdc064b482fd112f06a62bc690
 	 
 	}
   }
+
+
 
 /* Alerts */
 

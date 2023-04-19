@@ -19,19 +19,18 @@
 <body>
 
 	
+
+
 	<nav class="nav01">
 		<div class="container-fluid">
-		  <a class="navbar-logo">
-			<img src="http://localhost:3000/img/plataforma_2.png" width="50" height="50" alt="Mi logo">
-		  </a>
-		  <form class="navbar-login" role="search">
-			<button class="btn btn-warning" type="submit">Login</button>
-		  </form>
+			<a class="navbar-logo">
+				<img src="http://localhost:3000/img/plataforma_2.png" width="50" height="50" alt="Mi logo">
+			</a>
+			<form class="navbar-login" role="search">
+				<button class="btn btn-warning" type="submit">Login</button>
+			</form>
 		</div>	
-	  </nav>
-
-
-
+	</nav>
 
 
 
@@ -39,8 +38,11 @@
 	
 	<!-- FORM -->
 		<div class="container1">
+			
+		
+	  
 			<div class="form0">
-				<h1>LAS PRINCIPALES CAUSA DE LA DIFAMACION</h1>	
+				<h1>PLATILLADAaaaa</h1>	
 			</div>	
 			<form id="form" name="form" action="/" method="post" onsubmit="return validateForm()" >
 			<div class="form">
@@ -58,13 +60,13 @@
 					</div>
 	
 					<div class="form_group">
-						<input type="text" name="carrera" class="form_input" placeholder=" " >
+						<input type="text" name="carrera" id="carrera" class="form_input" placeholder=" " >
 						<label class="form_label">Carrera universitaria</label>		
 						<span class="form_line"></span>
 					</div>
 
 					<div class="form_group">
-						<input type="text" name="institution" class="form_input" placeholder=" ">
+						<input type="text" name="institution" id="institution"" class="form_input" placeholder=" ">
 						<label class="form_label">Correo institucional o personal</label>		
 						<span class="form_line"></span>
 					</div>
@@ -75,16 +77,13 @@
 						<span class="form_line"></span>
 					</div>
 	
-
-					<div class="form_group">
+					<!-- <div class="form_group">
 						<input type="text" class="form_input" placeholder=" ">
 						<label class="form_label">Ciclo:</label>		
 						<span class="form_line"></span>
-					</div>
-	
+					</div> -->
 				</div>
 				
-	
 			</div>	
 
 			<div class="form2">
@@ -303,6 +302,8 @@ function validateForm(){
 //alert('xxxxx');
 var nombre = document.getElementById("name1").value;
 var university= document.getElementById("university").value;
+var carrera=document.getElementById("carrera").value;
+var institution=document.getElementById("institution").value;
 
 if (nombre === ""){
     //alert("Tiene que escribir su nombre");
@@ -320,6 +321,25 @@ if (university === ""){
 
 return false;
 }
+
+
+if (carrera === ""){
+	toTop();
+	mostrarModalerror();
+	return false;
+
+return false;
+}
+
+if (institution === ""){
+	toTop();
+	mostrarModalerror();
+	return false;
+
+return false;
+}
+
+
 
 mostrarModalsuccess();
 return true;
