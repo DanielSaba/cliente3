@@ -47,10 +47,9 @@ body{
 
 .form0{
 	margin: 0 auto;
-
 	background-color: #00EBAD;
-	
 	color: white;
+	font-weight: bold;
 	font-family: 'Arial';
 	margin: auto;
 	padding: 1.5em;
@@ -140,7 +139,7 @@ body{
 	padding: -6em -3em;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid #0057CB;
+	border-bottom: 2px solid #999999;	
 	font-family: 'Roboto';
 }
 
