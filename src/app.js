@@ -7,6 +7,7 @@ import employeesRoutes from "./routes/employees.routes.js";
 import indexRoutes from "./routes/index.routes.js";
 import  questionsRoutes  from "./routes/question.routes.js";
 import clientRoutes from "./routes/client.routes.js";
+import  userRoutes from "./routes/user.routes.js";
 
 
 const app = express();
@@ -30,6 +31,8 @@ app.use(bodyParser.json())
 //app.use("/", indexRoutes);
 app.use("/", questionsRoutes);
 app.use("/", clientRoutes);
+app.use("/", userRoutes);
+
 //app.use("/api", employeesRoutes);
 
 //static files
