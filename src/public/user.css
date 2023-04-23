@@ -1,0 +1,41 @@
+.container{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    
+   
+    
+}
+
+.container-input{
+    
+    margin-top: 10px;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+
+
+    /* Posicionamiento  */
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: bold;
+    color: blue;
+}
+
+button{
+    width: 40%;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aquamarine;
+    
+}
